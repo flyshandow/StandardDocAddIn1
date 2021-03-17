@@ -127,6 +127,7 @@
         Me.Tab3 = Me.Factory.CreateRibbonTab
         Me.Group9 = Me.Factory.CreateRibbonGroup
         Me.Button44 = Me.Factory.CreateRibbonButton
+        Me.CheckBox1 = Me.Factory.CreateRibbonCheckBox
         SplitButton1 = Me.Factory.CreateRibbonSplitButton
         SplitButton9 = Me.Factory.CreateRibbonSplitButton
         SplitButton3 = Me.Factory.CreateRibbonSplitButton
@@ -752,6 +753,7 @@
         'Group9
         '
         Me.Group9.Items.Add(Me.Button44)
+        Me.Group9.Items.Add(Me.CheckBox1)
         Me.Group9.Label = "Group9"
         Me.Group9.Name = "Group9"
         '
@@ -759,6 +761,11 @@
         '
         Me.Button44.Label = "Button44"
         Me.Button44.Name = "Button44"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.Label = "CheckBox1"
+        Me.CheckBox1.Name = "CheckBox1"
         '
         'Ribbon1
         '
@@ -875,6 +882,7 @@
     Friend WithEvents Tab3 As Microsoft.Office.Tools.Ribbon.RibbonTab
     Friend WithEvents Group9 As Microsoft.Office.Tools.Ribbon.RibbonGroup
     Friend WithEvents Button44 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents CheckBox1 As Microsoft.Office.Tools.Ribbon.RibbonCheckBox
 End Class
 
 Partial Class ThisRibbonCollection
